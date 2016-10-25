@@ -3,7 +3,7 @@ let rp = require('request-promise');
 let options = {
     uri:'',
     headers:{
-        'User-Agent':'Suissa-Chain-Of-Request'
+        'User-Agent':'JeanLLopes'
     },
     json:true
 };
@@ -12,7 +12,7 @@ let url1 = options;
 let url2 = options;
 let url3 = options;
 
-const user = 'suissa';
+const user = 'JeanLLopes';
 url1.uri = 'https://api.github.com/users/' + user;
 
 const cb1 = (response) => {
