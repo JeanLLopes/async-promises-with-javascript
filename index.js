@@ -18,3 +18,7 @@ url1.uri = 'https://api.github.com/users/' + user;
 const cb1 = (response) => {
     console.log('1) Dados do usuario ' + response.name + ': ', response)
 }    
+
+rp(url1)
+    .then(cb1)
+    .catch(err => console.log)
