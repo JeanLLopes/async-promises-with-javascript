@@ -6,7 +6,7 @@ let options = {
         'User-Agent':'Suissa-Chain-Of-Request'
     },
     json:true
-}
+};
 
 let url1 = options;
 let url2 = options;
