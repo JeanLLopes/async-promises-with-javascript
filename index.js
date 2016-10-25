@@ -24,7 +24,7 @@ const cb1 = (response) => {
 const cb2 = (response) => {
     console.log('2) Lista de Seguidores: ')
     response.forEach((element,i) =>  {
-        console.log('- ' + element.login)
+        console.log('usuario - ' + element.login + ' - URL: ' + element.html_url)
     }, this);
 }    
 
